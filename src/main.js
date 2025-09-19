@@ -1,7 +1,15 @@
 import './style.css';
+import { Calendar } from '@bryntum/calendar';
 
-document.querySelector('#app').innerHTML = `
-  <h2>
-    Bryntum Calendar App with MongoDB
-  </h2>
-`
+const calendar = new Calendar({
+
+    appendTo : 'app',
+    date : '2026-07-01',
+
+    crudManager : {
+        autoLoad : true,
+        loadUrl  : '/api/load',
+        syncUrl  : '/api/sync',
+        autoSync : true,
+    }
+});
