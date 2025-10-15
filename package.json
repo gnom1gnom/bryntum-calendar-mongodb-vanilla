@@ -10,5 +10,8 @@
   },
   "devDependencies": {
     "vite": "^7.1.2"
+  },
+  "dependencies": {
+    "@bryntum/calendar": "npm:@bryntum/calendar-trial@^6.3.3"
   }
 }
