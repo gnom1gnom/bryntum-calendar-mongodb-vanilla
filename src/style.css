@@ -1,3 +1,9 @@
+@import '../node_modules/@bryntum/calendar/calendar.stockholm.css';
+
+#app {
+    height: 100vh;
+}
+
 html, body {
     font-family : "Poppins", sans-serif;
     font-weight : 400;
